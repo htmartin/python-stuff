@@ -1,0 +1,26 @@
+* No data on trainings
+
+
+vlny15, stny15, ospo15, stsj16
+
+for stsj16:
+
+day 1(0) start 32400
+         end   61200
+
+day 2(1) start 118800
+         end   147600
+
+
+databricks spark = 21
+datastax cassandra = 20
+
+
+
+to find answer to brian's question once we get vlsc16 data
+select count(distinct user) from atech_clean_attendance where conf = "stsj16" and day = "0" and session = "20";
+
+
+select user from atech_clean_attendance where session;
+
+select session, session_name from atech_clean_session where conf = "stsj16" and t0 = "32400";
