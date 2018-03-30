@@ -1,4 +1,5 @@
-## Projects General
+## run jupyter in container
+
 source ~/venv/bin/activate
 
 run this in home
