@@ -38,3 +38,6 @@ user_topic=pd.read_csv('../../tmp/usage-agg-testing.csv')
 
 ### Keyboard shortcuts
 https://www.cheatography.com/weidadeyue/cheat-sheets/jupyter-notebook/
+
+### current locatiom
+ Week 1: Python Basics  2. Core Elements of Programs (TIME: 54:14)  Exercise 3
