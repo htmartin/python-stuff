@@ -1,3 +1,13 @@
+###for just python shell
+
+docker run -it --rm -v`pwd`:/tmartin midsw205/base:latest
+
+
+at container prompt,
+
+python
+
+
 ## run jupyter in container
 
 source ~/venv/bin/activate
