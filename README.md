@@ -12,8 +12,13 @@ python
 
 source ~/venv/bin/activate
 
--run this in home
+-run this in home or wherever
 docker run -it --rm -p 8888:8888 -v`pwd`:/tmartin midsw205/base:latest
+
+-in container
+cd /tmartin
+jupyter notebook --no-browser --port 8888 --ip=0.0.0.0 --allow-root 
+
 
 -Then take token and put in once run: 
 jupyter notebook --no-browser --port 8888 --ip=0.0.0.0 --allow-root 
